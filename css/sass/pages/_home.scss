@@ -1,0 +1,171 @@
+/* start slider */
+.slider {
+    blockquote {
+        font-size: 18px;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 1.8;
+        text-align: center;
+        color: #837e7e;
+        width: 80%;
+        margin: 15px auto;
+    }
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        border-radius: 15px;
+        height: 420px;
+    }
+
+    ul {text-align: center;
+        li {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: #ddd;
+            border-radius: 50%;
+     margin:10px 2px;
+            &.active,&:hover
+            {
+                border: 3px solid #333;
+                background-color: white;
+                cursor: pointer;
+            }
+    
+        }
+    }
+    }
+/* end slider */
+/* start services */
+.services
+{
+    
+    .service-box
+    {
+
+@media #{$minmedium}
+{
+float: $float-left;
+        width: calc(100% / 3);
+              &:not(:last-of-type)
+        {
+padding-right: 20px;
+        }
+}
+
+@media #{$maxMobile}
+{
+    width: 100%;
+    float: none;
+    i {
+        margin-bottom: 15px;
+        display: block;
+
+    }
+
+}
+
+
+  
+h3
+{
+color: #666;
+}
+p
+{
+    color: $secondcolor ;
+    line-height: 1.5;
+
+}
+a.link
+{
+color: $maincolor;
+text-decoration: none;
+}
+
+    }
+}
+
+/* end services */
+/* start services */
+.players
+{
+    .player-box
+    {
+        margin-top: 30px;
+        
+@media #{$minMobile} {
+    float: $float-left;
+    width: calc(100% /2);
+    text-align: center;
+}
+@media #{$minmedium} {
+    width: calc(100% /3);
+    text-align: $text-left;
+        padding: 0px 20px;
+}
+        &:not(:last-of-type)
+        {
+padding-right: 20px;
+        }
+        img
+        {
+        
+            max-width: 100%;
+            border-radius: 15px;
+            &
+            {
+                border: 1px solid black;
+            }
+        }
+h3
+{
+color: #666;
+font-weight: normal;
+span
+{
+    font-weight: bold;
+}
+}
+p
+{
+    color: $secondcolor ;
+    line-height: 1.5;
+
+}
+a.link
+{
+color: $maincolor;
+text-decoration: none;
+}
+
+    }
+}
+/* end services */
+/*start lorem */
+.lorem {
+
+  .lorem-box {
+    float: $float-left; 
+    width: calc(94% / 3);
+ @media #{$maxMobile} {
+     width:100% ;   
+     margin: 10px auto;
+     text-align: center;
+    }
+    &:not(:last-of-type) {
+      margin-right: 3%;
+    }
+    img {
+      width: 100%;
+      height: 200px;
+      @media #{$maxMobile} {  
+width: 80%;
+    }
+    }
+  }
+}
+
+
+/* end lorem*/

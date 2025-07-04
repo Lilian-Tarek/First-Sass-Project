@@ -1,0 +1,30 @@
+body
+{
+font:
+{
+    family:tahoma;
+    size: 16px;
+}
+}
+ul,ol
+{
+    list-style: none;
+    padding: 0;
+}
+.main-button
+{
+    background-color: rgba($color: $maincolor, $alpha: .8);
+    color: #fff;
+    border: none;
+    text-align: center;
+    padding: 10px 15px;
+    min-width:120px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    &:hover
+    {
+        background-color: $maincolor;
+    }
+}

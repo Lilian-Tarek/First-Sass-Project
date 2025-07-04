@@ -1,0 +1,157 @@
+/*start footer*/
+.footer
+{
+    background-color: rgba($color: $secondcolor, $alpha: 0.6);
+    margin-top: 50px;
+    padding: 30px 0px;
+    overflow: hidden;
+    .footer-title
+    {
+        color: #5a5959;
+        margin-bottom: 20px;
+    }
+.gallery,.info,.contact
+{
+    float: $float-left;
+    padding-bottom: 10px;
+}
+    .gallery
+    {
+        @media #{$maxMobile} {
+             float: none;
+        }
+@media #{$minMobile} {
+    width: 100%;
+}
+@media #{$minmedium} {
+    width: 50%;
+}
+.img-box
+{overflow: hidden;
+    margin: 20px 0px;
+img
+{
+border-radius: 15px;
+@media #{$minMobile} {
+ float: $float-left;   
+}
+@media #{$maxMobile} {
+    width: 50%;
+    margin-bottom: 10px;
+
+}
+}
+.text
+{
+    @media #{$minMobile} {
+ float: $float-left; 
+    width: calc(100% - 180px);
+    margin-left: 15px;
+      margin-right: 15px;  
+}
+@media #{$maxMobile} {
+    width: 100%;
+}
+}
+h4
+{
+color: $maincolor;
+margin: 0px;
+
+}
+p
+{
+color:#666363;
+line-height: 1.5;
+}
+}
+
+    }
+    .info
+    {
+        @media #{$minMobile} {
+    width: 50%;
+}
+@media #{$minmedium} {
+    width: 25%;
+}
+        ul
+        {color:#666363 ;
+            li
+            {
+padding: 5px 0px;
+            }
+
+
+        }
+        
+        h4
+        {
+color: $maincolor;
+margin: 0px;
+        }
+        p
+        {
+            color:#666363 ;
+        }
+
+    }
+    .contact
+    {
+
+@media #{$minMobile} {
+    width: 50%;
+}
+@media #{$minmedium} {
+    width: 25%;
+}
+input[type="text"]
+{
+    margin: 10px 0px 0px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #888;
+    padding: 10px;
+    border-radius: 6px;
+}
+textarea
+{
+    width: 100%; 
+       outline: none;
+           border: 1px solid #888;
+           margin-top: 10px;
+             border-radius: 6px;
+}
+input[type="submit"]
+{
+    margin-top: 10px;
+}
+    }
+    
+
+}
+.copyright{
+    padding: 30px 0px 10px;
+    border-top: 1px solid #333;
+      color:#666363 ;
+      margin-top: 30px;
+.copy-text
+{
+float: $float-left;
+width: 50%;
+@media #{$maxMobile} {
+    width: 100%;
+    margin-bottom: 10px;
+ 
+}
+}
+.author
+{
+
+@media #{$minMobile} {
+text-align: $text-right;
+}
+}
+}
+
+/*start end*/

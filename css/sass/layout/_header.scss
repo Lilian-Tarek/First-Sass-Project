@@ -1,0 +1,87 @@
+/*start header*/
+.header
+{padding: 20px 0;
+    overflow: hidden;
+    border-bottom: 1px solid $secondcolor;
+    .logo
+    {width: 30%;
+        float:$float-left;
+        position: relative;
+
+@media #{$minMobile} {
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+@media #{$minmedium} {
+  width: 30%;
+        float:$float-left;
+        text-align: $text-left;
+}
+   @media #{$maxMobile} {  
+    width: 100%;
+   }  
+h1
+{
+margin-bottom: 0;
+margin-top: 10px;
+}
+p
+{
+
+}
+    }
+    .navbar
+    {width: 70%;
+        float:$float-right;
+  background-color:$maincolor;
+  border-radius: 15px;
+   overflow: hidden;
+   &.show {
+    display: block;
+    width: 100%;
+}
+  @media #{$minMobile}
+  {
+    float: none;
+   margin-top: 30px;
+   width: 100%;
+  }
+    @media #{$minmedium}
+  {
+      float:$float-right;
+   width: 70%;
+   margin-top:1em;
+  }
+  @media #{$maxMobile}
+  {
+    display: none;
+  }
+  
+li
+{
+        color: #fff;
+        text-decoration: none;
+        width: 20%;
+        float: $float-left;
+        font-size: 18px;
+        text-align: center;
+        display: block;
+        padding: 20px 10px;
+        &:hover
+        {
+            color: #ddd;
+
+        }
+@media #{$maxMobile}
+{display: block;
+    float: none;
+    width: 100%;
+}
+
+    
+
+}
+    }
+}
+/*end header*/
